@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="view-card-picture">
+  <image class="card-picture" src="images/street.jpg"></image>
+</view>
+<text class="tips">您还没有属于自己的专属名片，请先注册噢~</text>
+<button class="btn-registry">前往注册</button>

@@ -1,0 +1,16 @@
+/**index.wxss**/
+.card-picture {
+  width: 100%;
+}
+
+.tips {
+  display: block;
+  margin: 100rpx 150rpx;
+  color: crimson;
+}
+
+.btn-registry {
+  top: 55rpx;
+  background-color: rgb(25, 204, 49);
+  color: white;
+}
