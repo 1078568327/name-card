@@ -1,3 +1,23 @@
-<view class="container">
+<view class="user-center">
+  <image class="user-center-icon" src="images/user.svg"></image>
+  <span class="user-center-text-wrapper"><span class="user-center-text">个人中心</span></span>
+</view>
 
+<view class="name-card">
+  <image class="name-card-background" src="images/name-card-background.jpg">
+    <view class="name-card-info">
+      <text class="name">姓名: 陈钦西</text>
+      <text class="phone">电话: 18813986560</text>
+      <text class="email">邮箱: chenqinxi_gz@163.com</text>
+      <text class="company">公司: 万顺叫车</text>
+      <text class="job">职位: 架构师</text>
+    </view>
+    <view class="name-card-photo">
+      <image class="name-card-head-photo" src="images/head-photo.jpg"></image>
+    </view>
+  </image>
+</view>
+
+<view class="share-card-btn">
+  <button type="primary" plain="true">分享名片</button>
 </view>

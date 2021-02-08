@@ -1,0 +1,67 @@
+.user-center {
+  width: 180rpx;
+  height: 55rpx;
+  margin: 50rpx 0 50rpx 60rpx;
+}
+.user-center .user-center-icon {
+  width: 50rpx;
+  height: 50rpx;
+  border-style: solid;
+  border-width: 3rpx;
+  border-color: grey;
+  border-radius: 50rpx;
+}
+.user-center .user-center-text-wrapper {
+  display: block;
+  width: 120rpx;
+  font-size: 26rpx;
+  border-top-style:solid;
+  border-right-style:solid;
+  border-bottom-style:solid;
+  border-width: 3rpx;
+  border-color: grey;
+  margin-top: -54rpx;
+  margin-left: 48rpx;
+}
+.user-center .user-center-text-wrapper .user-center-text {
+  display: block;
+  margin-left: 10rpx;
+}
+
+.name-card {
+  width: 100%;
+  height: 100%;
+}
+.name-card .name-card-background {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  border-radius: 8rpx;
+}
+.name-card .name-card-info {
+  position: absolute;
+  top: 108rpx;
+  left: 35rpx;
+}
+.name-card .name-card-info text {
+  display: block;
+  font-size: 26rpx;
+  margin-top: 12rpx;
+}
+.name-card .name-card-photo {
+  position: absolute;
+  top: 38rpx;
+  right: 45rpx;
+}
+.name-card .name-card-photo .name-card-head-photo {
+  width: 130rpx;
+  height: 130rpx;
+  border-style: solid;
+  border-width: 3rpx;
+  border-color: grey;
+  border-radius: 80rpx;
+}
+
+.share-card-btn {
+  margin-top: 55rpx;
+}
